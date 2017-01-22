@@ -100,7 +100,7 @@ function uploadStreamToS3(audio, callback) {
 }
 
 app.get('/', function(request, response) {
-  response.send('hello worldannoying as fuck \n hihihihihihi victor, hows the app? \n are you using the camera yet?');
+  response.send('Hello World.');
 });
 
 app.post('/addFile', function(req, res) {
